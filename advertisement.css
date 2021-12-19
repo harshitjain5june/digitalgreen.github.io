@@ -1,0 +1,30 @@
+.ad-body{
+    background-image: url("image01.png");
+}
+.ad{
+    background-color: white;
+    width: 35%;
+    margin-left: 350px;
+    margin-top: 10px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ad-head{
+    margin-left: 350px;
+    margin-top: 50px;
+    color: white;
+}
+#ad{
+    background-color: white;
+    width: 35%;
+    margin-left: 350px;
+    margin-top: 10px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+#crop{
+    width: 200px;
+    height: 200px;
+}

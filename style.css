@@ -1,0 +1,78 @@
+.content{
+    /* height: 50vh; */
+    /* background-color:rgb(8, 219, 219); */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    /* align-items: center; */
+}
+.content::after{
+    content: "";
+    position: absolute;
+    background-image: url("background3.jpg");
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.container1{
+    width: 30%;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    border:2px solid;
+    border-color: rgb(39, 36, 36,0.3);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+  
+}
+.fade-in {
+	animation: fadeIn 3s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+.caption-align{
+    margin-bottom: 400px;
+    margin-left: -100px;
+    width: 500px;
+    background-color: rgb(48, 42, 42,0.4);
+    border-radius: 20px;
+}
+.caption-align3{
+    margin-bottom: 470px;
+    margin-left: -130px;
+    width: 500px;
+    background-color: rgb(48, 42, 42,0.4);
+    border-radius: 20px;
+}
+.sign-in{
+    background-image: url(image01.png);
+    background-position: center;
+    
+}
+.container-register{
+    width: 60%;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    border:2px solid;
+    border-color: rgb(39, 36, 36,0.3);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.register{
+    background-image: url(image02.png);
+    background-position: center;
+}

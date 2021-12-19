@@ -1,0 +1,108 @@
+.main{
+    height: 220px;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.main::before{
+    content: "";
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-size: 100% 376px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-content h1{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: x-large;
+
+}
+.products{
+    padding-top: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.products h2{
+    margin-top: 1px;
+    font-family: system-ui;
+    font-weight: 300;
+}
+.item-img img{
+    height: 180px;
+    width: 180px;
+    border: 1px solid;
+}
+.product-items{
+    display: flex;
+    
+    align-items: center;
+}
+.item-content{
+    margin-top: -13px;
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border:1px solid; */
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-bottom: 7px;
+    padding-top:4px ;
+}
+.item:hover{
+    box-shadow: 0px 6px 65px 0px rgba(0,0,0,.15);
+}
+.item-seed{
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid; */
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-bottom: 7px;
+    padding-top:4px ;
+}
+.item-seed:hover{
+    box-shadow: 0px 6px 65px 0px rgba(0,0,0,.15);
+}
+.item-img-seed{
+    display: flex;
+}
+.item-img-seed img{
+    height: 180px;
+    width: 180px;
+    border: 1px solid;
+    margin-right: 5px;
+}
+.seed-heading{
+    font-family: cursive;
+    color: rgb(4, 148, 4);
+}
+.seed{
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.seed-body{
+    background-color: rgb(41, 27, 27);
+}
+.category{
+    color: white;
+}
